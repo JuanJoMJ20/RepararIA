@@ -65,7 +65,7 @@ fun DiagnosticScannerScreen(
         targetValue = 1f,
         animationSpec = infiniteTransition.run {
             androidx.compose.animation.core.infiniteRepeatable(
-                animation = tween(durationMillis = 1100, easing = LinearEasing),
+                animation = tween(durationMillis = 1000, easing = LinearEasing),
                 repeatMode = RepeatMode.Reverse
             )
         },
