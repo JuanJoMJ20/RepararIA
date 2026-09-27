@@ -80,7 +80,7 @@ fun RepairGuideScreen(
         Spacer(modifier = Modifier.height(4.dp))
 
         Text(
-            text = "⚡ Diagnóstico completado en ${"%.1f".format(elapsedSeconds)}s · 3 pasos · Tiempo estimado ≈ ${guide.estimatedMinutes} min",
+            text = "⚡ Diagnóstico completado en ${"%.1f".format(elapsedSeconds)}s · 3 pasos · Estimado: ${guide.estimatedMinutes} min",
             style = MaterialTheme.typography.bodySmall.copy(
                 fontWeight = FontWeight.Medium
             ),
