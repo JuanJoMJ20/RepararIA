@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MaterialTheme(
                 colorScheme = lightColorScheme(
-                    primary = Color(0xFF4F46E5),
+                    primary = Color(0xFF4338CA),
                     onPrimary = Color.White,
                     primaryContainer = Color(0xFFEEF2FF),
                     onPrimaryContainer = Color(0xFF312E81),
