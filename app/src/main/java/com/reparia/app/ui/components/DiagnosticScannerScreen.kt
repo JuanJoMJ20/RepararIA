@@ -81,7 +81,7 @@ fun DiagnosticScannerScreen(
             text = "¿Qué falla tienes en casa?",
             style = MaterialTheme.typography.titleLarge.copy(
                 fontWeight = FontWeight.Bold,
-                fontSize = 22.sp
+                fontSize = 21.sp
             ),
             color = MaterialTheme.colorScheme.onBackground
         )
