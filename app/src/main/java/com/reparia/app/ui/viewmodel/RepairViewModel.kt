@@ -39,7 +39,7 @@ class RepairViewModel : ViewModel() {
             _uiState.update { it.copy(isScanning = true) }
 
             val startTime = System.currentTimeMillis()
-            delay(1500) // Simulación de análisis IA con visión computacional
+            delay(1400) // Simulación de análisis IA con visión computacional
             val durationSec = (System.currentTimeMillis() - startTime) / 1000f
 
             if (scenario == ScenarioType.BLURRY) {
