@@ -65,7 +65,7 @@ fun BlurryPhotoErrorDialog(
                 color = MaterialTheme.colorScheme.onSurface
             )
 
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(14.dp))
 
             // Parte 1: Qué pasó
             ErrorPartCard(
@@ -128,7 +128,7 @@ fun BlurryPhotoErrorDialog(
                 }
             }
 
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(14.dp))
         }
     }
 }
