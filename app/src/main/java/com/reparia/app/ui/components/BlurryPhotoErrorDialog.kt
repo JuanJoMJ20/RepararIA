@@ -109,7 +109,7 @@ fun BlurryPhotoErrorDialog(
                         .height(50.dp),
                     shape = RoundedCornerShape(12.dp)
                 ) {
-                    Text("Cancelar")
+                    Text("Descartar")
                 }
 
                 Spacer(modifier = Modifier.width(12.dp))
