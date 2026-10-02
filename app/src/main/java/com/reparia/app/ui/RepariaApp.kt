@@ -36,7 +36,7 @@ fun RepariaApp(
                 title = {
                     Text(
                         text = "REPARIA • IA Mantenimiento",
-                        fontWeight = FontWeight.Bold,
+                        fontWeight = FontWeight.SemiBold,
                         style = MaterialTheme.typography.titleMedium
                     )
                 },
