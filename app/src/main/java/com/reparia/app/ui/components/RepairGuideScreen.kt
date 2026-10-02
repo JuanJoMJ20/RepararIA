@@ -214,7 +214,7 @@ fun RepairGuideScreen(
                 color = Color(0xFFD1FAE5)
             ) {
                 Text(
-                    text = "🎉 ¡Excelente trabajo! Reparación completada con éxito.",
+                    text = "🎉 ¡Excelente trabajo! ¡Reparación completada con éxito!",
                     modifier = Modifier.padding(16.dp),
                     style = MaterialTheme.typography.bodyMedium.copy(
                         fontWeight = FontWeight.Bold,
