@@ -50,7 +50,7 @@ fun RepariaApp(
 
         AnimatedContent(
             targetState = state.diagnosisGuide != null,
-            transitionSpec = { fadeIn() togetherWith fadeOut() },
+            transitionSpec = { fadeIn() togetherWith fadeOut() // Transicion fluida },
             label = "ScreenTransition",
             modifier = Modifier
                 .fillMaxSize()
