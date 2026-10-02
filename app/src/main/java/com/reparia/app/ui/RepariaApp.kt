@@ -47,6 +47,7 @@ fun RepariaApp(
             )
         }
     ) { innerPadding ->
+        // Contenido principal de la app
 
         AnimatedContent(
             targetState = state.diagnosisGuide != null,
