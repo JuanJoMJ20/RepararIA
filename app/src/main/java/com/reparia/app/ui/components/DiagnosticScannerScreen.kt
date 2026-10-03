@@ -117,7 +117,7 @@ fun DiagnosticScannerScreen(
                         width = if (isSelected) 2.dp else 1.dp,
                         color = if (isSelected) MaterialTheme.colorScheme.primary else Color(0xFFE2E8F0)
                     ),
-                    shape = RoundedCornerShape(16.dp)
+                    shape = RoundedCornerShape(14.dp)
                 ) {
                     Column(modifier = Modifier.padding(12.dp)) {
                         Text(text = option.icon, fontSize = 26.sp)
@@ -213,7 +213,7 @@ fun DiagnosticScannerScreen(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(56.dp),
-            shape = RoundedCornerShape(16.dp),
+            shape = RoundedCornerShape(14.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.primary
             )
