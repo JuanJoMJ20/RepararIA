@@ -111,7 +111,7 @@ fun DiagnosticScannerScreen(
                         .clip(RoundedCornerShape(16.dp))
                         .clickable(enabled = !isScanning) { onSelectScenario(option) },
                     colors = CardDefaults.cardColors(
-                        containerColor = if (isSelected) Color(0xFFEEF2FF) else MaterialTheme.colorScheme.surface
+                        containerColor = if (isSelected) Color(0xFFEDE9FE) else MaterialTheme.colorScheme.surface
                     ),
                     border = androidx.compose.foundation.BorderStroke(
                         width = if (isSelected) 2.dp else 1.dp,
