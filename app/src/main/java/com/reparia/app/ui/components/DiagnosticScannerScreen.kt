@@ -120,7 +120,7 @@ fun DiagnosticScannerScreen(
                     shape = RoundedCornerShape(14.dp)
                 ) {
                     Column(modifier = Modifier.padding(12.dp)) {
-                        Text(text = option.icon, fontSize = 26.sp)
+                        Text(text = option.icon, fontSize = 28.sp)
                         Spacer(modifier = Modifier.height(4.dp))
                         Text(
                             text = option.title,
