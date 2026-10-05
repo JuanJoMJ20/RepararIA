@@ -12,3 +12,5 @@ Aplicación Android moderna desarrollada con **Jetpack Compose** y Kotlin para e
 - **Jetpack Compose + Material 3**
 - **MVVM** con StateFlow y ViewModel
 - **Corrutinas** para simulación de visión computacional
+
+- **Kotlin 2.0 & AGP 8.7**
