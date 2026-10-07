@@ -135,7 +135,7 @@ class RepairViewModel : ViewModel() {
                 toolsNeeded = listOf("Herramientas básicas"),
                 steps = listOf(
                     RepairStep(1, "Inspección visual y limpieza."),
-                    RepairStep(2, "Ajuste de fijaciones y prueba de funcionamiento.")
+                    RepairStep(2, "Ajuste de tornillos y verificación.")
                 )
             )
         }
