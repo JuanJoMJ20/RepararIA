@@ -115,7 +115,7 @@ fun DynamicWarningBanner(
                 Text(
                     text = subtitle,
                     style = MaterialTheme.typography.bodyMedium.copy(
-                        fontSize = 13.sp,
+                        fontSize = 13.5.sp,
                         lineHeight = 18.sp
                     ),
                     color = contentColor.copy(alpha = 0.95f)
