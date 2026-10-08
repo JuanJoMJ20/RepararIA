@@ -83,7 +83,7 @@ fun DynamicWarningBanner(
             containerColor = containerColor,
             contentColor = contentColor
         ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+        elevation = CardDefaults.cardElevation(defaultElevation = 3.dp)
     ) {
         Row(
             modifier = Modifier
