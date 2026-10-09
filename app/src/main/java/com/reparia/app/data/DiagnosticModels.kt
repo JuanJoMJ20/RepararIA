@@ -16,7 +16,7 @@ enum class RiskLevel {
  */
 enum class ScenarioType(val title: String, val icon: String, val hint: String) {
     FAUCET("Foto: Grifo goteando", "🚰", "Resultado seguro"),
-    ELECTRIC("Foto: Enchufe chispas", "⚡", "Riesgo eléctrico alto"),
+    ELECTRIC("Foto: Enchufe con chispa", "⚡", "Riesgo eléctrico alto"),
     BLURRY("Foto: Borrosa / Sombra", "🌫️", "Dispara error de 3 partes"),
     AUDIO("Audio: Motor nevera", "🎙️", "Diagnóstico por sonido")
 }
