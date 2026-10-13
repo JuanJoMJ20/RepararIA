@@ -46,7 +46,7 @@ fun DynamicWarningBanner(
     val isDanger = riskLevel == RiskLevel.DANGER
 
     val containerColor by animateColorAsState(
-        targetValue = if (isDanger) Color(0xFFDC2626) else Color(0xFFD1FAE5),
+        targetValue = if (isDanger) Color(0xFFB91C1C) else Color(0xFFD1FAE5),
         animationSpec = tween(durationMillis = 350),
         label = "BannerContainerColor"
     )
