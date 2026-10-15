@@ -97,7 +97,7 @@ fun RepairGuideScreen(
             )
         )
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(9.dp))
 
         FlowRow(
             horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -144,13 +144,13 @@ fun RepairGuideScreen(
             )
         }
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(9.dp))
 
         LinearProgressIndicator(
             progress = { progress },
             modifier = Modifier
                 .fillMaxWidth()
-                .height(8.dp)
+                .height(9.dp)
                 .clip(RoundedCornerShape(4.dp)),
             color = MaterialTheme.colorScheme.primary,
             trackColor = Color(0xFFE2E8F0)
