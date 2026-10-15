@@ -35,7 +35,7 @@ fun RepariaApp(
             TopAppBar(
                 title = {
                     Text(
-                        text = "REPARIA • IA Mantenimiento",
+                        text = "REPARIA • Diagnóstico IA",
                         fontWeight = FontWeight.SemiBold,
                         style = MaterialTheme.typography.titleMedium
                     )
