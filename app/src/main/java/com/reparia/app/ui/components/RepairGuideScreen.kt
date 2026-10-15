@@ -106,7 +106,7 @@ fun RepairGuideScreen(
             guide.toolsNeeded.forEach { tool ->
                 Surface(
                     shape = RoundedCornerShape(16.dp),
-                    color = Color(0xFFEEF2FF)
+                    color = Color(0xFFF1F5F9)
                 ) {
                     Text(
                         text = "🔧 $tool",
