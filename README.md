@@ -14,3 +14,6 @@ Aplicación Android moderna desarrollada con **Jetpack Compose** y Kotlin para e
 - **Corrutinas** para simulación de visión computacional
 
 - **Kotlin 2.0 & AGP 8.7**
+
+---
+*Proyecto finalizado y verificado para entrega.*
